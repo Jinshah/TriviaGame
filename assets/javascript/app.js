@@ -61,7 +61,7 @@ function generateLossDueToTimeOut() {
     correctAnswers[questionCounter] +
     "</p>";
   $(".maincontent").html(gameHTML);
-  setTimeout(wait, 4000); //  change to 4000 or other amount
+  setTimeout(wait, 4000);
 }
 
 function generateHTML() {
@@ -121,7 +121,7 @@ function finalScreen() {
     "<p>Unanswered: " +
     unansweredTally +
     "</p>" +
-    "<p class='text-center reset-button-container'><a class='btn btn-primary btn-lg btn-block reset-button' href='#' role='button'>Reset The Quiz!</a></p>";
+    "<p class='text-center'><a class='reset-button' href='#' role='button'>Reset The Quiz!</a></p>";
   $(".maincontent").html(gameHTML);
 }
 

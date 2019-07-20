@@ -6,7 +6,8 @@ body {
   margin: 0px;
   text-align: center;
 }
-.start-button {
+.start-button,
+.reset-button {
   position: relative;
   background: #fff;
   border-radius: 4px;
